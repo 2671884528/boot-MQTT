@@ -1,0 +1,19 @@
+server:
+  port: 8001
+  ssl:
+    enabled: false
+
+spring:
+  application:
+    name: mqttClient
+
+mqtt:
+  host: tcp://112.74.180.80:1883
+  username: admin
+  password: public
+  timeout: 3000
+  keepalive: 6000
+  topic: default2
+  clientId: default2
+
+
