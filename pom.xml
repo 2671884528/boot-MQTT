@@ -11,6 +11,10 @@
     <modules>
         <module>client</module>
         <module>receive</module>
+        <module>data</module>
+        <module>server</module>
+        <module>mult</module>
+        <module>Ack</module>
     </modules>
 
     <properties>

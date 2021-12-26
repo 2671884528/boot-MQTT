@@ -1,0 +1,15 @@
+server:
+  port: 9001
+
+spring:
+  application:
+    name: mqttClient
+
+mqtt:
+  host: tcp://112.74.180.80:1883
+  username: admin
+  password: public
+  timeout: 30
+  keepalive: 60
+  defaultTopic: default
+  clientId: default
